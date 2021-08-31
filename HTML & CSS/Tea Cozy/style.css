@@ -76,10 +76,69 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
+}
+.trend{
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .trend img{
     height: 200px;
     width: 300px;
     padding: 10px 10px;
+}
+
+.trend h2{
+    text-align: center;
+}
+
+.banner{
+    height:500px;
+    max-width:1200px;
+    margin:40px auto 40px auto;
+    padding-top:85px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.box-container{
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height:300px;
+    padding:20px;
+    margin-bottom: auto;
+    flex-basis:30%;
+    box-sizing: border-box;
+    opacity: 0.8;
+    background-color: black;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+footer{
+    display: flex;
+    padding-left: 20px  ;
+    width:100%;
+    justify-content: center;
 }
