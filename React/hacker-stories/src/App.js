@@ -38,7 +38,7 @@ function App() {
       <input id = 'search' type = 'text'/>
       <hr/>
       {list.map(function (item) {
-        return <div>{item.title}</div>  
+        return <div>{item.title}</div>
       }
       )}
     </div>
