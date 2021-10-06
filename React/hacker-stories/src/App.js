@@ -19,7 +19,6 @@ function App() {
       <h1>My Hacker Stories</h1>
       <label htmlFor='search'>Search:</label>
       <input id = 'search' type = 'text'/>
-      <hr/>
       {/*creating an instance of List component*/}
       <List/>
       {/*creating another instance of list component*/}
