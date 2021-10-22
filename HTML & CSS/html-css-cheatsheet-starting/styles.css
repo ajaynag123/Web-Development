@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    box-sizing: content-box;
+    display: box;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index:auto;
+}
+
+h2{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.table{
+    display: table;
+    box-sizing: border-box;
+    float:none;
+    z-index: auto;
+    position: static;
+    line-height: normal;
+    border: 2px solid darkorchid;
+    margin: 0 auto;
+
+}
+th{
+    background-color: plum;
+}
+
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-row;
+}
