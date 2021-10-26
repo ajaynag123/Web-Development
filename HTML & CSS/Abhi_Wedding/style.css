@@ -12,8 +12,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: #ff99b6;
+    background-color:white;
     overflow: hidden;
+    text-align: center;
 }
 .banner{
     width:100%;
@@ -27,24 +28,21 @@
     align-items: flex-start;
     flex-wrap: wrap;
     border-radius: 0 0 500px 0;
+    text-align: center;
 }
 .nav{
     width:90%;
     height: auto;
-    background-color: rgba(255,200,200,.7);
     border-radius: 30px;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-.nav b{
-    font-size: 40px;
-    margin-left: 20px;
-}
+    
+}   
 .menu{
-    width:50%;
+    width:100%;
     height: 60px;
     border-radius: 30px;
     position: relative;
@@ -52,13 +50,13 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
     transition-duration: .5s;
+    border:black;
 }
 .menu a{
     text-decoration: none;
     font-size: 30px;
-    color:#333;
+    color:black;
     font-weight: bolder;
     transition-duration: .5s;
 }
@@ -68,28 +66,15 @@
 .text{
     width:100%;
     position: relative;
-    top:40px;
+    top:px;
     left: 20px;
     font-size: 50px;
-    text-align: left;
+    text-align: center;
 }
 .text h1{
-    color:#f15;
-    text-shadow: 0 3px 10px rgba(0,0,0,.5);
-}
-.countdown-timer{
-    color: #f15;
-}
-.text .date{
-    color:#fff;
-    background-color: #f15;
-    padding: 5px;
-    border-radius: 40px 0 40px 0;
-    transition-duration: .5s;
-}
-.text .date:hover{
-    background-color: #fff;
-    color:#f15;
+    color:black;
+    text-align: center;
+    
 }
 
 .section{
@@ -113,12 +98,53 @@
     flex-wrap: wrap;
     box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
 }
+
+.venues{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+
 .us img{
     width:200px;
     height: 200px;
     border-radius: 50%;
     border-top: 10px solid #f15;
     border-bottom: 10px solid #f15;
+    margin-bottom: 20px;
+}
+
+
+
+.venues img{
+    width:200px;
+    height: 200px;
+    display: flex;
+    border-radius: 5px;
+    border-top: 10px solid #f15;
+    border-bottom: 10px solid #f15;
+    margin-bottom: 30px;
+}
+
+.venues a{
+    text-decoration: underline;
+}
+
+.venue1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.venue2{
+    text-align: center;
     margin-bottom: 20px;
 }
 .section h2{
@@ -138,59 +164,6 @@
     background-color: #f15;
     border-radius: 8px;
 }
-.venue{
-    width:80%;
-    height: auto;
-    background-color: #fff;
-    border-radius: 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
-    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
-}
-.venue img{
-    width:50%;
-    height: 300px;
-    display: inline;
-    border:2px solid #f15;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.venue p{
-    font-size: 35px;
-    line-height: 30px;
-    color:#333;
-}
-
-.party{
-    width:80%;
-    height: auto;
-    background-color: #fff;
-    border-radius: 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
-    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
-}
-.party img{
-    width:50%;
-    height: 300px;
-    display: inline;
-    border:2px solid #f15;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.party p{
-    font-size: 35px;
-    line-height: 30px;
-    color:#333;
-}
 footer{
     width:100%;
     height: auto;
@@ -208,4 +181,27 @@ footer i{
     color:skyblue;
     font-size: 30px;
     margin-left: 20px;
+}
+
+.eventname{
+    color:pink;
+}
+
+.name{
+    font-size: 60px;
+    text-align: center;
+}
+
+.ampercent{
+    size: 0.5em;
+}
+
+.quote{
+    text-align: center;
+}
+
+.eventname{
+    text-decoration: underline;
+    color: red;
+    font-size: 40px;
 }
