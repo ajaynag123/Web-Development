@@ -6,7 +6,7 @@
 }
 .container{
     width:100%;
-    height: auto;
+    
     font-family: 'cookie', cursive;
     display: flex;
     justify-content: flex-start;
@@ -40,6 +40,7 @@
     align-items: center;
     flex-wrap: wrap;
     
+    
 }   
 .menu{
     width:100%;
@@ -52,11 +53,13 @@
     flex-wrap: wrap;
     transition-duration: .5s;
     border:black;
+    border-style: solid;
+    margin-bottom: 20px;
 }
 .menu a{
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 30px;
-    color:black;
+    color:#f15;
     font-weight: bolder;
     transition-duration: .5s;
 }
@@ -85,6 +88,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    font-family: 'cookie', cursive;
 }
 .us{
     width:80%;
@@ -97,6 +101,7 @@
     align-items: center;
     flex-wrap: wrap;
     box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+    font-family: 'cookie', cursive;
 }
 
 .venues{
@@ -110,6 +115,7 @@
     align-items: center;
     flex-wrap: wrap;
     box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+    font-family: 'cookie', cursive;
 }
 
 .us img{
@@ -141,11 +147,13 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .venue2{
     text-align: center;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 .section h2{
     width:100%;
@@ -169,7 +177,7 @@ footer{
     height: auto;
     color:#ddd;
     font-size: 30px;
-    font-family: monospace;
+    font-family: cursive;
     background-color: #555;
     margin-top: 20px;
     display: inline-flex;
@@ -190,6 +198,7 @@ footer i{
 .name{
     font-size: 60px;
     text-align: center;
+    color: blue;
 }
 
 .ampercent{
@@ -204,4 +213,10 @@ footer i{
     text-decoration: underline;
     color: red;
     font-size: 40px;
+}
+
+.abc{
+    height: auto ;
+    margin-bottom: 40px;
+    display: block           
 }
