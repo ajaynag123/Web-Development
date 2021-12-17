@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const {time} = require('../controllers/blogs');
+const {signup} = require('../controllers/auth');
 
-router.get('/blogs',time)
+router.post('/signup',signup)
 
 module.exports = router;

@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         trim: true,
         required: true,
-        maxlength: 32,
+        max: 32,
         unique: true,
         index: true,
         lowercase:true
@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         trim: true,
         required: true,
-        maxlength: 32
+        max: 32
     },
     email: {
         type: String,
@@ -49,4 +49,6 @@ const userSchema = new mongoose.Schema({
         data: String,
         default:''
     }
-},{timestamps:true}); 
+},{timestamps:true});
+
+module.exports = mongoose.model('User,userSchema');
