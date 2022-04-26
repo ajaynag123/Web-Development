@@ -1,0 +1,8 @@
+<form [formGroup]="myForm" (ngSubmit)="submitForm()" novalidate>
+  <mat-form-field>
+   <input matInput placeholder="Name" formControlName="name">
+   <!-- error -->
+   <mat-error *ngIf="errorHandling('name', 'required')">
+      You must provide a<strong>name</strong>
+   </mat-error>
+</mat-form-field>
